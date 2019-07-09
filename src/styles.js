@@ -149,7 +149,7 @@ export const VideoApresentacaoTexto = styled.section`
   color: #fff;
   text-align: center;
   font-weight: 200;
-  margin-bottom: 40px;
+  padding: 30px;
 
   h2 {
     font-size: 30px;
@@ -164,10 +164,7 @@ export const VideoApresentacaoTexto = styled.section`
 export const BlocoBrancoTexto = styled.section`
   text-align: center;
   font-weight: 300;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 25px;
 
   p {
     font-size: 26px;
@@ -175,17 +172,53 @@ export const BlocoBrancoTexto = styled.section`
 
   strong {
     font-weight: 700;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #ce0000;
+
+    :hover {
+      color: #ff8600;
+    }
+  }
+
+  h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  ul {
+    max-width: 1000px;
+    list-style-type: none;
+    padding: 0px;
+
+    h3 {
+      font-size: 30px;
+      font-weight: 900;
+    }
+
+    p {
+      font-size: 22px;
+      font-weight: 200;
+      margin-bottom: 30px;
+    }
   }
 `;
 
 export const BlocoPretoTexto = styled.section`
   text-align: center;
   font-weight: 300;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 25px;
   color: #fff;
+
+  blockquote {
+    border-left: 2px solid #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 20px;
+    font-size: 18px;
+  }
 
   p {
     font-size: 26px;
@@ -193,6 +226,15 @@ export const BlocoPretoTexto = styled.section`
 
   strong {
     font-weight: 700;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #ce0000;
+
+    :hover {
+      color: #ff8600;
+    }
   }
 `;
 
@@ -229,7 +271,7 @@ export const HeroUnit = styled.div`
 
 export const HeroUnitTexto = styled.div`
   width: 100%;
-  padding: 40px;
+  padding: 20px;
   text-align: left;
 
   p {
@@ -252,6 +294,8 @@ export const BlocoHeroUnit = styled.div`
   width: 100%;
   max-width: 1000px;
   flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
 
   @media (min-width: 768px) {
     flex-direction: row;
