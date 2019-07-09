@@ -170,7 +170,7 @@ export const BlocoBrancoTexto = styled.section`
   padding-right: 20px;
 
   p {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   strong {
@@ -188,7 +188,7 @@ export const BlocoPretoTexto = styled.section`
   color: #fff;
 
   p {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   strong {
@@ -221,7 +221,7 @@ export const HeroUnit = styled.div`
 
   h4 {
     margin: 0px;
-    font-size: 40px;
+    font-size: 36px;
     margin-top: 20px;
     margin-bottom: 10px;
   }

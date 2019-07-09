@@ -1,19 +1,19 @@
 import "semantic-ui-css/semantic.min.css";
 
 import React from "react";
-import ReactDOM from "react-dom";
+import { render } from "react-snapshot";
 
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 const rootEl = document.getElementById("root");
 
-ReactDOM.render(<App />, rootEl);
+render(<App />, rootEl);
 
 if (module.hot) {
   module.hot.accept("./App", () => {
     const NextApp = require("./App").default;
-    ReactDOM.render(<NextApp />, rootEl);
+    render(<NextApp />, rootEl);
   });
 }
 

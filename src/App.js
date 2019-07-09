@@ -129,27 +129,204 @@ function App() {
         <Grid.Row centered style={{ background: "#FFF" }}>
           <BlocoBrancoTexto>
             <p>
-              Eu passei os últimos dez anos trabalhando para empresas de todos
-              os tipos: de startups a multinacionais.
+              Eu passei os últimos <strong>10 anos</strong> trabalhando para
+              empresas de todos os tipos: de <strong>startups</strong> a{" "}
+              <strong>multinacionais</strong>.
             </p>
             <p>
-              Todas elas tinham um objetivo em comum: construir uma aplicação
-              web que fosse fácil de usar, implementar e divulgar.
+              <strong>Todas</strong> elas tinham um{" "}
+              <strong>objetivo em comum</strong>: construir uma aplicação que
+              fosse fácil de usar, implementar e divulgar.
             </p>
             <p>
-              Muitas delas fracassavam por cometer alguns erros que acabavam
-              comprometendo todo o seu produto.
+              <strong>Muitas delas</strong> simplesmente fracassavam no meio do
+              processo por cometer alguns deslizes que acabavam{" "}
+              <strong>comprometendo todo o seu produto</strong>.
             </p>
           </BlocoBrancoTexto>
         </Grid.Row>
         <Grid.Row centered style={{ background: "#000" }}>
           <BlocoPretoTexto>
             <p>
-              Eu vivenciei na pele cada um desses erros e quero que VOCÊ não
-              cometa-os.
+              <strong>Eu vivenciei</strong> na pele cada um desses deslizes e
+              quero que você <strong>NÃO</strong> passe por eles.
             </p>
-            <p>Você estará adquirindo um material de retorno incalculável.</p>
+            <p>
+              Estes{" "}
+              <strong>deslizes envolvem desde a criação do primeiro MVP</strong>{" "}
+              ou da <strong>cultura da empresa</strong> até a{" "}
+              <strong>estratégia de divulgação</strong> a ser usada.
+            </p>
+            <p>
+              Este curso fará com que você <strong>encurte os desafios</strong>{" "}
+              da <strong>sua jornada</strong> para ser um(a) desenvolvedor(a) de{" "}
+              <strong>sucesso</strong>.
+            </p>
           </BlocoPretoTexto>
+        </Grid.Row>
+        <Grid.Row centered style={{ background: "#FFF" }}>
+          <BlocoBrancoTexto>
+            <p>
+              Eu acredito que você, assim como eu, sempre teve o{" "}
+              <strong>sonho de ajudar o máximo de pessoas</strong> possível.
+            </p>
+            <p>
+              Porém, as cobranças do <em>dia-a-dia</em>, a{" "}
+              <em>falta de ideias</em> ou até mesmo de motivação para criar algo
+              novo, sempre te impediu de fazer algo assim.
+            </p>
+            <p>
+              Pensando em alguém como <strong>você</strong> que eu resolvi
+              montar essa <strong>plataforma on-line</strong>.
+            </p>
+            <p>
+              Através dessa plataforma, você terá acesso a um material de
+              altíssima qualidade técnica e uma comunidade jovem e ativa
+              interessada em construir algo.
+            </p>
+          </BlocoBrancoTexto>
+        </Grid.Row>
+        <Grid.Row centered style={{ background: "#000" }}>
+          <BlocoPretoTexto>
+            <p>
+              Eu quero te dar todo o <strong>conhecimento técnico</strong> que
+              você precisa para você construir as suas ideias em tempo recorde.
+            </p>
+            <p>
+              Além de todo esse conteúdo, você terá <strong>acesso</strong> a
+              uma <strong>comunidade ativa</strong> de desenvolvedores e
+              entusiastas que tem algo em comum com você:
+              <br />a vontade de montar um <strong>negócio digital</strong> de
+              sucesso.
+            </p>
+            <p>
+              É claro que para isso acontecer, vai depender{" "}
+              <strong>100%</strong> do seu <strong>empenho</strong> e{" "}
+              <strong>dedicação</strong>.
+            </p>
+            <p>
+              Mas uma coisa eu posso garantir: os meus pupilos que se dedicaram
+              totalmente ao meu conteúdo, hoje estão muito bem, obrigado.
+            </p>
+          </BlocoPretoTexto>
+        </Grid.Row>
+        <Grid.Row centered style={{ background: "#FFF" }}>
+          <BlocoBrancoTexto>
+            <p>
+              No curso <strong>Aplicativo do Zero com Firebase e React</strong>,
+              você irá aprender
+              <br />
+              as principais tecnologias no mercado de programação.
+              <br />
+              <br />
+              Dentro destas tecnologias, estão em destaque: o{" "}
+              <a
+                href="https://reactjs.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                React
+              </a>{" "}
+              e o{" "}
+              <a
+                href="https://firebase.google.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Firebase
+              </a>
+              .
+            </p>
+            <p>
+              Para você ter uma ideia,{" "}
+              <a
+                href="https://neuvoo.com/salary/?job=React%20Js%20Developer"
+                target="_blank"
+              >
+                a média salarial de um desenvolvedor React nos{" "}
+                <strong>Estados Unidos</strong>
+              </a>{" "}
+              é de <strong>12 MIL dólares por MÊS</strong>.<br />
+              Isso dá uma média de <strong>US$ 61,00/hora</strong>.
+            </p>
+            <p>
+              Isso dá, na cotação atual, aprox.{" "}
+              <strong>R$231,00 por HORA</strong>. Muito mais que a{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.salario.com.br/profissao/medico-clinico-cbo-225125/"
+              >
+                média salarial de um médico no Brasil
+              </a>
+              .
+            </p>
+            <p>
+              Com estas tecnologias, você será <strong>capacitado</strong> o
+              suficiente para construir qualquer ideia mirabolante que vier na
+              sua cabeça.
+            </p>
+            <p>
+              Já sei, tu <strong>NÃO</strong> quer ser dono de um{" "}
+              <strong>aplicativo de sucesso</strong>? Relaxa, não tem problema
+              algum.
+            </p>
+          </BlocoBrancoTexto>
+        </Grid.Row>
+        <Grid.Row centered style={{ background: "#000" }}>
+          <BlocoPretoTexto>
+            <p>
+              Você vai ter um currículo de fazer inveja, graças aos insights que
+              eu vou passando durante o curso.
+            </p>
+            <p>Quer ter headhunters implorando pela sua atenção no LinkedIn?</p>
+            <p>
+              Estudar este curso é um dos primeiros passos para que isso ocorra.
+            </p>
+          </BlocoPretoTexto>
+        </Grid.Row>
+        <Grid.Row centered style={{ background: "#FFF" }}>
+          <BlocoBrancoTexto>
+            <p>Nosso material é 100% atualizado com as técnicas atuais.</p>
+            <p>
+              Você irá aprender do zero o que desenvolvedores seniors usam
+              diariamente para criar as aplicações mais usadas do momento.
+            </p>
+          </BlocoBrancoTexto>
+        </Grid.Row>
+        <Grid.Row centered style={{ background: "#000" }}>
+          <BlocoPretoTexto>
+            <p>
+              Um dos meus últimos trabalhos foi construir um aplicativo em React
+              Native com Firebase para uma empresa da Estônia.
+            </p>
+            <p>
+              Este aplicativo era um monitorador de trades com criptomoedas.
+            </p>
+            <p>
+              Após a entrega deste aplicativo, eu me dei conta de que é uma
+              obrigação minha compartilhar o máximo de conhecimento possível.
+            </p>
+            <p>
+              Eu não posso morrer com toda essa informação no meu cérebro, sem
+              que antes eu passe ela para pessoas como você.
+            </p>
+          </BlocoPretoTexto>
+        </Grid.Row>
+        <Grid.Row centered style={{ background: "#FFF" }}>
+          <BlocoBrancoTexto>
+            <p>
+              Eu tenho tanta certeza de que o meu conteúdo irá lhe trazer uma
+              outra visão de mundo,
+              <br />
+              que se em 7 dias você não gostar do curso, eu irei devolver 100%
+              do seu dinheiro.
+            </p>
+            <p>
+              É uma promessa: conhecimento de primeira garantido ou seu dinheiro
+              de volta.
+            </p>
+          </BlocoBrancoTexto>
         </Grid.Row>
         <Grid.Row centered style={{ background: "#FFF" }}>
           <BlocoBrancoTexto>
@@ -161,13 +338,14 @@ function App() {
           <BlocoHeroUnit>
             <HeroUnit>
               <h2>
-                Acesso por
-                <br /> 12 meses ao curso
+                Acesso ao curso
+                <br />
+                por 12 meses
               </h2>
               <h3>
-                De <em>R$ 1.200,00</em> por apenas:
+                De <em>R$ 2.497,75</em> por apenas:
               </h3>
-              <h4>R$ 345,00</h4>
+              <h4>12x de R$28,75</h4>
               <p>Custa R$0,94/dia</p>
             </HeroUnit>
             <HeroUnitTexto>
@@ -200,6 +378,7 @@ function App() {
                 </li>
               </ul>
               <Button
+                href="https://pay.hotmart.com/X13624514V?off=w8v3nkwj"
                 icon
                 color="green"
                 style={{ marginBottom: "40px" }}
@@ -208,7 +387,7 @@ function App() {
                 labelPosition="left"
               >
                 <Icon name="cart" />
-                Quero me inscrever agora
+                Quero me inscrever agora!
               </Button>
               <img
                 style={{ width: "100%" }}
