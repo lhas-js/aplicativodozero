@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Button, Grid } from "semantic-ui-react";
 
 import {
@@ -32,6 +33,22 @@ const CallToAction = () => (
 function App() {
   return (
     <>
+      <Helmet>
+        <meta
+          property="og:title"
+          content="Curso Aplicativo do Zero com Firebase e React"
+        />
+        <meta
+          property="og:description"
+          content="Descubra como criar aplicativos do zero que são altamente escaláveis em tempo recorde usando as tecnologias mais modernas do mercado."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aplicativodozero.com.br" />
+        <meta
+          property="og:image"
+          content="https://aplicativodozero.com.br/cover.png"
+        />
+      </Helmet>
       <GlobalStylesheet />
       <Grid style={{ width: "100%", margin: "0" }}>
         <Grid.Row centered>
@@ -69,9 +86,11 @@ function App() {
               <h2>
                 Descubra como{" "}
                 <strong>
-                  criar aplicativos do zero que são altamente escaláveis{" "}
+                  criar aplicativos do zero
+                  <br /> rapidamente que são altamente escaláveis{" "}
                 </strong>{" "}
-                em <strong>tempo recorde</strong>.
+                <br />
+                com as tecnologias mais modernas do mercado.
               </h2>
               <p>
                 Você já pensou em criar um aplicativo mas teve dificuldade em...
