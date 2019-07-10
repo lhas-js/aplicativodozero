@@ -74,8 +74,8 @@ function App() {
             </LogoCurso>
             <VideoApresentacao>
               <iframe
-                title="vimeo-player"
-                src="https://player.vimeo.com/video/347321946"
+                title="Vídeo de apresentação"
+                src="https://drive.google.com/file/d/1em-qACBGLQ6DIk3sQh1r7aNgQuRfEyqg/preview"
                 width="640"
                 height="260"
                 frameborder="0"
